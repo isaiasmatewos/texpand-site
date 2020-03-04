@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="/img/favicon.ico">
-        <title>Texpand Documentation</title>
-        <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Tasker Support - Texpand Documentation</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="/js/jquery-1.10.2.min.js" defer></script>
-        <script src="/js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/.">Texpand Documentation</a>
+                    <a class="navbar-brand" href="..">Texpand Documentation</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -47,10 +47,10 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="/.">Welcome to MkDocs</a>
+                                <a href="..">Welcome to MkDocs</a>
                             </li>
-                            <li >
-                                <a href="/tasker-support/">Tasker Support</a>
+                            <li class="active">
+                                <a href="./">Tasker Support</a>
                             </li>
                         </ul>
 
@@ -60,21 +60,72 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li >
+                                <a rel="next" href="..">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
         </div>
 
         <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#tasker-support">Tasker Support</a></li>
+            <li><a href="#tasker-configuration-for-built-in-variables">Tasker configuration for built-in variables</a></li>
+            <li><a href="#tasker-configuration-for-user-variables">Tasker configuration for user variables</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
 
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
-    </div>
-
-
+<h1 id="tasker-support">Tasker Support</h1>
+<p>Texpand allows you to use Tasker built-in variables and user created variables in your phrases, additionally you can trigger Tasker actions by typing a  shortcut. This page is a guide on how to configure Texpand to be used with Tasker. Tasker integration is part of Texpand premium.</p>
+<h2 id="tasker-configuration-for-built-in-variables">Tasker configuration for built-in variables</h2>
+<p>Tasker opens up a wide range of of  global built in
+<a href="https://tasker.joaoapps.com/userguide/en/variables.html" target="_blank">variables</a> that can be accessed by a Tasker plugin. You can use these variables in your phrases. Before you can use Takser built-in variables in your phrases you need configure Texpand plugin with Tasker, here's how:</p>
+<ol>
+<li>
+<p>Open tasker and tap the '+' button to create a profile, then navigate to: <em>Event → Plugin -&gt; Texpand → Request Tasker built-in variables update</em></p>
+</li>
+<li>
+<p>This will open a new screen titled "Event Edit" while in this screen tap the pencil button on the right side of the screen, then a plugin configuration screen will be come up here toggle the switch to be 'on', after that press the back button twice.</p>
+</li>
+<li>
+<p>After you have configured the Texpand event plugin Tasker will ask you to either create a new task or select an existing one which is going to be triggered in response to the selected event, in this case it's recommended you create a new task, if you would like to use an existing task please skip to step 5.</p>
+</li>
+<li>
+<p>If you have selected "New Task" Tasker will ask you to name it, give it a name to proceed.</p>
+</li>
+<li>
+<p>This will open "Task Edit" screen, tap the '+' button on the bottom right, then navigate to: <em>Plugin → Texpand → Update built-in Tasker variables</em></p>
+</li>
+<li>
+<p>A new screen titled "Action Edit" will be opened, then tap the pencil button besides "Configuration" in the upcoming screen tap the switch to be on and press back twice.</p>
+</li>
+<li>
+<p>That's it now you are ready to use Tasker built in variables in your phrases.</p>
+</li>
+</ol>
+<h3 id="adding-tasker-built-in-variables-to-your-phrases">Adding Tasker built-in variables to your phrases</h3>
+<ol>
+<li>
+<p>Open Texpand and tap the '+' button then select either "Phrase" or "Phrase list"</p>
+</li>
+<li>
+<p>Now move the cursor to either "phrase" or to "List item" in case of phrase lists, then the variable chooser toolbar will appear at the bottom.</p>
+</li>
+<li>
+<p>Scroll to the right end of the variable chooser toolbar until you see 'Tasker', once you see it tap 'Tasker' and select 'Built-in' then a dialog listing all Tasker built-in variables will be shown from here select the variable you want use, repeat this step to add more variables.</p>
+</li>
+</ol>
+<h2 id="tasker-configuration-for-user-variables">Tasker configuration for user variables</h2></div>
         </div>
 
         <footer class="col-md-12">
@@ -82,11 +133,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "/",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="/js/base.js" defer></script>
-        <script src="/search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
