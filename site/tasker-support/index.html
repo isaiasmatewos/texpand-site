@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Tasker Support - Texpand Documentation</title>
+        <title>Tasker support - Texpand Documentation</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -50,7 +50,7 @@
                                 <a href="..">Welcome to MkDocs</a>
                             </li>
                             <li class="active">
-                                <a href="./">Tasker Support</a>
+                                <a href="./">Tasker support</a>
                             </li>
                         </ul>
 
@@ -86,22 +86,19 @@
                 <div class="col-md-9" role="main">
 
 <h1 id="tasker-support">Tasker Support</h1>
-<p>Texpand allows you to use Tasker built-in variables and user created variables in your phrases, additionally you can trigger Tasker actions by typing a  shortcut. This page is a guide on how to configure Texpand to be used with Tasker. Tasker integration is part of Texpand premium.</p>
+<p>Texpand allows you to use Tasker built-in and user created variables in your phrases, additionally you can trigger Tasker actions by typing a shortcut. This page is a guide on how to configure Tasker to be used with Texpand. Tasker integration is part of Texpand premium.</p>
 <h2 id="tasker-configuration-for-built-in-variables">Tasker configuration for built-in variables</h2>
 <p>Tasker opens up a wide range of of  global built in
 <a href="https://tasker.joaoapps.com/userguide/en/variables.html" target="_blank">variables</a> that can be accessed by a Tasker plugin. You can use these variables in your phrases. Before you can use Takser built-in variables in your phrases you need configure Texpand plugin with Tasker, here's how:</p>
 <ol>
 <li>
-<p>Open tasker and tap the '+' button to create a profile, then navigate to: <em>Event → Plugin -&gt; Texpand → Request Tasker built-in variables update</em></p>
+<p>Open Tasker and tap the '+' button to create a profile, then navigate to: <em>Event → Plugin -&gt; Texpand → Request Tasker built-in variables update</em></p>
 </li>
 <li>
 <p>This will open a new screen titled "Event Edit" while in this screen tap the pencil button on the right side of the screen, then a plugin configuration screen will be come up here toggle the switch to be 'on', after that press the back button twice.</p>
 </li>
 <li>
-<p>After you have configured the Texpand event plugin Tasker will ask you to either create a new task or select an existing one which is going to be triggered in response to the selected event, in this case it's recommended you create a new task, if you would like to use an existing task please skip to step 5.</p>
-</li>
-<li>
-<p>If you have selected "New Task" Tasker will ask you to name it, give it a name to proceed.</p>
+<p>Select "New Task" then Tasker will ask you to name it, give it a name to proceed.</p>
 </li>
 <li>
 <p>This will open "Task Edit" screen, tap the '+' button on the bottom right, then navigate to: <em>Plugin → Texpand → Update built-in Tasker variables</em></p>
@@ -119,13 +116,61 @@
 <p>Open Texpand and tap the '+' button then select either "Phrase" or "Phrase list"</p>
 </li>
 <li>
-<p>Now move the cursor to either "phrase" or to "List item" in case of phrase lists, then the variable chooser toolbar will appear at the bottom.</p>
+<p>Now move the cursor to either "phrase" or to "List item" in case of phrase lists, then the variable chooser toolbar will appear above your keyboard.</p>
 </li>
 <li>
 <p>Scroll to the right end of the variable chooser toolbar until you see 'Tasker', once you see it tap 'Tasker' and select 'Built-in' then a dialog listing all Tasker built-in variables will be shown from here select the variable you want use, repeat this step to add more variables.</p>
 </li>
 </ol>
-<h2 id="tasker-configuration-for-user-variables">Tasker configuration for user variables</h2></div>
+<h2 id="tasker-configuration-for-user-variables">Tasker configuration for user variables</h2>
+<p>Texpand has support for Tasker's user created local variables. To demonstrate how to use user created local Tasker variables with Texpand, here's an example that will allow you to fetch the current Bitcoin price and use it in Texpand. You can also import this task <a href="https://taskernet.com/shares/?user=AS35m8kVZzyXnsJmz1SfMBXr%2BwhJbIG%2F%2Ff26SUe5pP3rZ3j7ECdpC1YJzSpBGW%2F8OKFd4Ll42qUApRki%2BnFiue7iUQ%3D%3D&id=Profile%3AUpdate+Bitcoin+Price+Every+15+Minutes" target="_blank">from here</a>:</p>
+<ol>
+<li>
+<p>Open Tasker and tap the '+' button to create a profile and select "Time".</p>
+</li>
+<li>
+<p>Tap "From" and "To" to disable them, then select "Every" and type 15 in the text field besides after that change the time unit to "Minute(s)", this is to update the bitcoin price every 15 minutes.</p>
+</li>
+<li>
+<p>Select "New Task" then Tasker will ask you to name it, give it a name to proceed.</p>
+</li>
+<li>
+<p>Tap the '+' button on the bottom right, then navigate to: <em>Plugin → Http Request</em>, this will open a screen titled "Action Edit".</p>
+</li>
+<li>
+<p>Scroll down and you will find a text field titled "URL" then enter "https://blockchain.info/ticker" which is a site that provides bitcoin exchange rate data. Go back once you have entered the url.</p>
+</li>
+<li>
+<p>Tap the '+' button on the bottom right, then navigate to: <em>Variables → Variable Set</em></p>
+</li>
+<li>
+<p>In the text field titled "Name" enter 'btc_exch_rate' below there's another text field titled "To" simply enter a space here and go back.</p>
+</li>
+<li>
+<p>Tap the '+' button on the bottom right, then navigate to: <em>Code → Javascriptlet Set</em></p>
+</li>
+<li>
+<p>Under the text field titled "Code" enter the following javascript code <code>btc_exch_rate = JSON.parse(http_data).USD.last</code> and go back</p>
+</li>
+<li>
+<p>Tap the '+' button on the bottom right and navigate to: <em>Plugin → Update Tasker user variables</em></p>
+</li>
+<li>
+<p>Tap the pencil button besides "Configuration" then a screen listing available variables will open here check 'btc_exch_rate', this step will send the updated value of the variable 'btc_exch_rate' to Texpand when this task runs.</p>
+</li>
+</ol>
+<h3 id="using-local-user-created-variables-to-your-phrases">Using local user created variables to your phrases</h3>
+<ol>
+<li>
+<p>Open Texpand and tap the '+' button then select either "Phrase" or "Phrase list"</p>
+</li>
+<li>
+<p>Now move the cursor to either "phrase" or to "List item" in case of phrase lists, then the variable chooser toolbar will appear above your keyboard.</p>
+</li>
+<li>
+<p>Scroll to the right end of the variable chooser toolbar until you see 'Tasker', once you see it tap it and select 'User vars' then a dialog listing available  variables will be shown from here select the variable you want use, repeat this step to add more variables. As per the above example 'btc_exch_rate' should show up here, if you select it Texpand will replace it with Bitcoin current exchange rate when expand it using it's respective shortcut.</p>
+</li>
+</ol></div>
         </div>
 
         <footer class="col-md-12">
