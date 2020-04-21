@@ -1,3 +1,10 @@
 site_name: Texpand Docs
 docs_dir: docs_src
 site_dir: docs
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Tasker Support: tasker-support.md
+theme:
+    name: readthedocs
+    nav_style: light

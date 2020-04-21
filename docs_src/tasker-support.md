@@ -1,8 +1,14 @@
-#Tasker Support
+---
+title: "Tasker Support"
+date: 2020-03-15T18:10:59+03:00
+draft: true
+---
+
+# Tasker Support
 
 Texpand allows you to use Tasker built-in and user created variables in your phrases, additionally you can trigger Tasker actions by typing a shortcut. This page is a guide on how to configure Tasker to be used with Texpand. Tasker integration is part of Texpand premium.
 
-##Tasker configuration for built-in variables
+## Tasker configuration for built-in variables
 
 Tasker opens up a wide range of of  global built in
 <a href="https://tasker.joaoapps.com/userguide/en/variables.html" target="_blank">variables</a> that can be accessed by a Tasker plugin. You can use these variables in your phrases. Before you can use Takser built-in variables in your phrases you need configure Texpand plugin with Tasker, here's how:
@@ -61,43 +67,3 @@ Texpand has support for Tasker's user created local variables. To demonstrate ho
 2. Now move the cursor to either "phrase" or to "List item" in case of phrase lists, then the variable chooser toolbar will appear above your keyboard.
 
 3. Scroll to the right end of the variable chooser toolbar until you see 'Tasker', once you see it tap it and select 'User vars' then a dialog listing available  variables will be shown from here select the variable you want use, repeat this step to add more variables. As per the above example 'btc_exch_rate' should show up here, if you select it Texpand will replace it with Bitcoin current exchange rate when expand it using it's respective shortcut.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

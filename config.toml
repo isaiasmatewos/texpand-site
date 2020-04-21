@@ -1,0 +1,4 @@
+baseURL = "https://texpandapp.com/"
+languageCode = "en-us"
+title = "Texpand"
+theme = "noteworthy"
