@@ -11,7 +11,7 @@ To start using Texpand you need to enable it in accessibility settings.
  
 When you first open Texpand you will see a warning that says "Accessibility service is disbaled" at the bottom of your screen, tap "Enable", this will bring up a dialog, tap the "Enable" button in the dialog.
 
-![Enable Texpand](img/enable_accessibility_1.png)
+![Enable Texpand](img/enable_accessibility_steps.png)
 
 Alternatively you can tap the three dots ( ⠇) on the top right corner and tap "Start service". 
 
@@ -33,22 +33,28 @@ The phrase editor has two fields, the top text field is where you write your sho
 
 When you're done editing tap the back arrow at the top left corner to save your shortcut.
 
-![Phrase Editor](img/phrase_editor.png)
+![Phrase Editor](img/create_phrase_steps.png)
 
 ## Creating a phrase list
 
 You can create multiple phrases that can be displayed by typing a single shortcut, for example you can create a list of replies to respond quickly when you're busy, then you can just type the shortcut and choose from the list of replies.
 
-Phrase list is part of Texpand Premium.
+To create a phrase list open Texpand and tap the plus button at the bottom right corner, then tap "Phrase list".
 
-![Phrase Editor](img/phrase_list_usage_ag.png)
+On the top text field of the phrase list editor type your shortcut, then tap "List item" to add a phrase, once you have added a phrase tap "List item" again to add another phrase, repeat to add more phrases.
+
+When you're done editing tap the back arrow at the top left corner to save your phrase list.
+
+![Phrase Editor](img/creating_phrase_list_steps.png)
+
+Phrase list is part of Texpand Premium.
 
 ## Shortcut name restrictions
 
 Shortcuts have the following restrictions:
 
 - Shortcuts must be alphanumeric including unicode characters
-- Allowed symbols: ``*~^=+/\%'`&[](){}"<>?!-_,.@#$;:``
+- The follwoing symobols are allowed: ``*~^=+/\%'`&[](){}"<>?!-_,.@#$;:``
 - Shortcuts can't contain emojis ☹️
 - Shortcuts can't have spaces
 
