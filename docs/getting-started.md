@@ -81,7 +81,17 @@ If what you're typing matches part of one or more shortcuts Texpand will display
 
 Tap the desired shortcut to insert it's phrase.
 
-![Phrase suggestions](img/phrase_suggestions.png)
+![Shortcut suggestions](img/shortcut_suggestions.png)
+
+>💡 Swipe right on a shortcut suggestion to edit the phrase and to open or share it with other applications
+
+## Adding notes to your phrases
+
+You can add notes to your phrases, which can help describe the contents of a phrase. 
+
+To add notes open a phrase and tap the three horizontal dots at the top right corner of the phrase editor, tap the "Add notes" text field to start adding your notes, once your done close the phrase editor to save your note.
+
+You can search for phrases using the contents of your notes.
 
 
 ## Opening your phrases with other applications
@@ -96,7 +106,7 @@ This feature is only available on Android 8 Oreo or later.
 
 ## Next steps
 
-- Customize Text Expansion
+- [Configure text expansion](/text-expansion-configuration?id=configure-text-expansion)
 - Insert dates and other variables
 - Keeping your data safe
 - Using Texpand in incompatible apps

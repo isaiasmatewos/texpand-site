@@ -30,6 +30,9 @@
       width: 80px;
       height: 80px;
     }
+    .sidebar ul li a {
+      font-style: bold;
+    }
   </style>
 </head>
 <body>
@@ -40,13 +43,12 @@
       name: 'Texpand Docs',
       nameLink: 'https://texpandapp.com',
       homepage: 'getting-started.md',
-      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      formatUpdated: '{MM}/{DD}/{YYYY} {HH}:{mm}',
       loadSidebar: "summary.md",
-      subMaxLevel: 3,
+      subMaxLevel: 4,
       topMargin: 160,
       themeColor: '#5AB55E',
-      logo: '/img/favicon.png',  
-      repo: 'https://github.com/isaiasmatewos/texpand-site'
+      logo: '/img/favicon.png'
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
