@@ -106,7 +106,7 @@ This feature is only available on Android 8 Oreo or later.
 
 ## Next steps
 
-- [Configure text expansion](/text-expansion-configuration?id=configure-text-expansion)
+- [Configure text expansion](/text-expansion-configuration ':target=_self')
 - Insert dates and other variables
 - Keeping your data safe
 - Using Texpand in incompatible apps
