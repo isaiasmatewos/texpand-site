@@ -1,3 +1,5 @@
+Updated: {docsify-updated}
+
 # Tasker Support
 
 Texpand allows you to use Tasker built-in and user created variables in your phrases, additionally you can trigger Tasker actions by typing a shortcut. This page is a guide on how to configure Tasker to be used with Texpand. Tasker integration is part of Texpand premium.

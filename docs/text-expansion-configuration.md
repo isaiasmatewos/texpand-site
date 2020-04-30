@@ -1,3 +1,5 @@
+Updated: {docsify-updated}
+
 # Configure Text Expansion
 
 Learn how to configure text expansion to match your specific needs.
@@ -10,7 +12,7 @@ Global text expansion settings change the text expansion behavior of all your ph
 
 To find global text expansion settings go to: 
 
-*O pen Texpand → Menu (⠇) → Settings → Text Expansion* 
+*Open Texpand → Menu (⠇) → Settings → Text Expansion* 
 
 ### Backspace to undo
 
@@ -86,6 +88,21 @@ This makes it possible to expand a shortcut in between characters, for example, 
 Fixatn   →   Fixation
 Correctn →   Correction
 ```
+
+## Application management
+
+You can make Texpand work with all applications except certain applications (blacklist mode) or you can have it work only with selected applications (whitelist mode).
+
+To choose between blacklist mode or white-list mode, go to:
+
+*Open Texpand → Menu (⠇) → Settings → Text Expansion → Blacklisted apps* 
+
+Then, tap "Mode" on the top right corner of the screen, and choose between "Blacklist mode" or "Whitelist mode".
+
+To select applications for your preferred mode, tap the '+' button on the top, this will bring up a list of applications, tap an application to select, repeat to add more.
+
+
+> <i class='bx bx-info-circle'></i>  When "Whitelist mode" is selected, you need to add at least one application to be applicable, otherwise text expansion will work in all applications.
 
 ## Overlay UI settings
 
