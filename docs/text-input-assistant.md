@@ -2,7 +2,7 @@ Updated: {docsify-updated}
 
 # Text Input Assistant
 
-Text Input Assistant (TIA) allows you to easily use your phrases from anywhere without opening Texpand, it makes it possible to use your phrases in applications where Texpand don't normally work.
+Text Input Assistant (TIA) allows you to easily use your phrases from anywhere without opening Texpand, it makes it possible to use your phrases in applications where Texpand doesn't normally work.
 
 ## How to open
 
@@ -14,45 +14,43 @@ You can choose how to open TIA by going to:
 
 The available options are:
 
-### Notification
-
-Allows you to open TIA by displaying an ongoing notification, tapping it will open TIA.
+• <b>Notification</b>: allows you to open TIA by displaying an ongoing notification, tap it to open TIA.
 
 ![Open Text Input Assistant via notification](img/tia_notif_access.png)
 
-### Accessibility Button
-
-Accessibility button is a system provided button that is displayed at the navigation area of your phone. You can use this button to show/hide TIA, if it's configured to do so.
-
-> You will need to disable and then [enable Texpand's accessibility service](/getting-started?id=enabling-accessibility-service ':target=_self') for this option to take effect.
+• <b>Accessibility Button</b>: this is a system provided button that is displayed at the navigation area of your phone. You can use this button to show/hide TIA.
 
 ![Accessibility Button](img/tia_accessibility_button.png)
 
->In Android 10, if Google's gesture navigation is enabled, you have to swipe up from the bottom of the screen with two fingers to show/hide TIA.
+>In Android 10, when Google's gesture navigation is enabled, this button is replaced by a gesture, swipe up from the bottom of the screen with two fingers to show/hide TIA.
 
-### Fingerprint gesture
-
-Allows you to show/hide TIA by a fingerprint gesture. By default a swipe up fingerprint gesture will show/hide TIA, but you can choose a fingerprint gesture direction by going to:
+• <b>Fingerprint gesture</b>: allows you to show/hide TIA by a fingerprint gesture. By default a swipe up fingerprint gesture will show/hide TIA, but you can choose a fingerprint gesture direction by going to:
 
 *Open Texpand → Menu (⠇) → Settings → Text Input Assistant → Fingerprint gesture direction*
-
-> You will need to disable and then [enable Texpand's accessibility service](/getting-started?id=enabling-accessibility-service ':target=_self') for this option to take effect.
 
 > If your device have a fingerprint gesture to perform other actions, e.g pulling down the notification shade in Pixel phones, choosing to open TIA via a fingerprint gesture will disable this functionality. And it may not work at all in some devices
 
 
-### Quick settings tile
+> ⚠️ Choosing to open TIA by accessibility button or fingerprint gesture requires [re-enabling](/getting-started?id=enabling-accessibility-service ':target=_self') Texpand accessibility service to fully take effect.
 
-Additionally TIA can be opened by adding a quick settings tile. Here's how to do that:
+
+• <b>Quick settings tile</b>: additionally TIA can be opened by adding a quick settings tile. Here's how to do that:
 
 <p align="center" style="margin-top: 60px; margin-bottom: 60px;">
   <video autoplay="false" loop="false" width="240" src="img/quick_settings_tile.mp4"
   	alt="How to add Text Input Assistant's quick setting tile">
 </p>
 
+
+## Searching for items
+
+To search for items, simply start typing when TIA shows up, you can  switch between the "Phrases" and "Clipboard" to see their respective search results.
+
+If you have [disabled](#show-keyboard-on-open) the keyboard from showing up when TIA is opened, tap the search field to begin searching.
+
 ## Accessing phrase list items
 
-To access phrase list items, find the phrase list and tap it to see it's contents. You can go back to the main list by tapping "Back to phrases".
+To see phrase list contents tap it, to go back to the main list tap the "Back to phrases" button at the top.
 
 ![TIA phrase list items](img/tia_access_phrase_list.png)
 
@@ -60,45 +58,49 @@ To access phrase list items, find the phrase list and tap it to see it's content
 
 Learn how to use Text Input Assistant. 
 
+The methods detailed below apply to all items you can access in TIA: phrases, phrase-lists and entries in the clipboard tab.
+
 
 ### Copy/paste phrases
 
-Open TIA and find the phrase you want (you can search for it), then tap it to copy it, once it's copied Texpand will attempt to paste the text if an editable text field was focused behind TIA. Here's a demonstration:
+To copy an item in TIA simply tap it, and Texpand will try to paste the the item if there's a focused text field beneath TIA. 
+
+Otherwise you can manually paste the copied item in any text field you want.
 
 <p align="center" style="margin-top: 60px; margin-bottom: 60px;">
   <video autoplay="false" loop="false" width="240" src="img/paste_action_docs.mp4" alt="How to copy/paste text using Text Input Assistant">
 </p>
-
-
-If pasting doesn't work you can manually paste it in the desired text field. 
 
 Pasting can be can [disabled](#paste-on-tap) in TIA's settings.
 
 
 ### Drag and drop phrases
 
-You can drag and drop a phrase to an application beneath TIA, like this:
+You can drag and drop an item to an application beneath TIA, like this:
 
 <p align="center" style="margin-top: 60px; margin-bottom: 60px;">
   <video autoplay="false" loop="false" width="240" src="img/drag_n_drop_outlook.mp4" alt="How to copy/paste text using Text Input Assistant">
 </p>
 
-> Drag and drop may not work with all applications
+> Drag and drop may not work with some applications
 
 ### Additional actions
 
-When you open TIA you can swipe right to bring up more actions.
+
+You can swipe right on any item to bring up more actions.
 
 <p align="center">
   <img width="400" src="img/tia_phrase_swipe_actions.png"/>
 </p>
 
 
-- <b>Open</b>: open the phrase with another application i.e if it can be handled by another application e.g if it's an email or phone number. See [opening a phrase](/getting-started?id=opening-your-phrases-with-other-applications).
+- <b>Open</b>: open the item with another application e.g if it's an email address it launches a compose screen in your default email client. See [opening a phrase](/getting-started?id=opening-your-phrases-with-other-applications).
 
-- <b>Share</b>: allows you to share the phrase contents with other applications by displaying the share sheet.
+- <b>Share</b>: share the item's contents with another application using the share menu.
 
 - <b>Edit</b>: bring up the phrase editor, so that you can modify to the selected phrase/phrase-list.
+
+> When you swipe right on clipboard entries, the edit action is replaced by delete action.
 
 ## Clipboard Manager
 
@@ -108,7 +110,7 @@ TIA can be used as a clipboard manager, in Android 9 (Pie) and earlier it's enab
 
 ### Clipboard access in Android 10
 
-Android 10 does not allow applications running in the background to access clipboard contents. Texpand has a workaround that involves granting permission via [ADB](https://wiki.lineageos.org/adb_fastboot_guide.html). 
+Android 10 does not allow applications running in the background to access clipboard contents, you can bypass this restriction by granting additional permission to Texpand via [ADB](https://wiki.lineageos.org/adb_fastboot_guide.html). 
 
 To enable clipboard history in Android 10 first enable clipboard history by going to:
 
@@ -121,7 +123,7 @@ adb shell pm grant com.isaiasmatewos.texpand  android.permission.READ_LOGS
 adb shell am force-stop com.isaiasmatewos.texpand
 ```
 
-> The second ADB command will force stop Texpand as a result you will have to open Texpand again and [enable its's accessibility service.](/getting-started?id=enabling-accessibility-service ':target=_self') 
+> ⚠️ The second ADB command will force stop Texpand as a result you will have to open Texpand and [enable its's accessibility service.](/getting-started?id=enabling-accessibility-service ':target=_self') 
 
 #### Alternative method
 
@@ -130,10 +132,6 @@ If you're not comfortable with ADB commands or you would not like to give Texpan
 <p align="center">
   <img width="400" src="img/save_plus_copy.png"/>
 </p>
-
-### Using clipboard history
-
-The items in the clipboard tab can be used in the same ways as phrases, you can [copy/paste them](#copypaste-phrases) or [drop them to other applications](#drag-and-drop-phrases).
 
 
 ### Delete clipboard history
@@ -154,17 +152,17 @@ You can find TIA settings by tapping the gear icon(<i class='bx bxs-cog' ></i>) 
 
 Enable/disable Text Input Assistant. 
 
-> If you have configured TIA to be opened by [accessibility button](#acessibility-button) or [fingerprint gesture](#fingerprint-gesture) you have to [re-enable](/getting-started?id=enabling-accessibility-service ':target=_self')  Texpand accessibility service for the setting to fully take effect.
+> ⚠️ If you have configured TIA to be opened by [accessibility button](#acessibility-button) or [fingerprint gesture](#fingerprint-gesture) you have to [re-enable](/getting-started?id=enabling-accessibility-service ':target=_self')  Texpand accessibility service for the setting to fully take effect.
 
 ### Launch through
 
 Choose [how to open TIA.](#how-to-open)
 
-> Choosing to open TIA by [accessibility button](#acessibility-button) or [fingerprint gesture](#fingerprint-gesture) requires [re-enabling](/getting-started?id=enabling-accessibility-service ':target=_self') Texpand accessibility service to fully take effect.
+> ⚠️ Choosing to open TIA by [accessibility button](#acessibility-button) or [fingerprint gesture](#fingerprint-gesture) requires [re-enabling](/getting-started?id=enabling-accessibility-service ':target=_self') Texpand accessibility service to fully take effect.
 
 ### Notification settings
 
-If you choose to open TIA via an [ongoing notification](#notification), tap this setting to configure how this notification appears.
+If you choose to open TIA via an [ongoing notification](#notification), tap this setting to configure various aspects of the notification.
 
 ### Fingerprint gesture direction
 
