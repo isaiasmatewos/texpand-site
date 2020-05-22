@@ -4,7 +4,7 @@ Updated: {docsify-updated}
 
 Learn how to configure text expansion to match your specific needs.
 
-There are two ways to configure text expansion, **global settings** and **phrase settings**.
+There are two ways to configure text expansion, **global settings** and [phrase settings](#phrase-settings).
 
 ## Global Settings
 
@@ -13,6 +13,8 @@ Global text expansion settings change the text expansion behavior of all your ph
 To find global text expansion settings go to: 
 
 *Open Texpand → Menu (⠇) → Settings → Text Expansion* 
+
+Global settings includes the following:
 
 ### Backspace to undo
 
@@ -26,7 +28,7 @@ When turned on, smart case changes the expanded text case based on the case of t
 
 ```
 ty → thank you
-Ty → Thank you
+Ty → Thank You
 TY → THANK YOU
 ```
 
@@ -102,7 +104,7 @@ Then, tap "Mode" on the top right corner of the screen, and choose between "Blac
 To select applications for your preferred mode, tap the '+' button on the top, this will bring up a list of applications, tap an application to select, repeat to add more.
 
 
-> <i class='bx bx-info-circle'></i>  When "Whitelist mode" is selected, you need to add at least one application to be applicable, otherwise text expansion will work in all applications.
+> When "Whitelist mode" is selected, you need to add at least one application to be applicable, otherwise text expansion will work in all applications.
 
 ## Overlay UI settings
 
@@ -112,15 +114,16 @@ Texpand displays small overlay windows to assist you with inserting your phrases
 
 You can also change application theme and language in this screen.
 
+Overlay UI settings include the following:
+
 
 ### Phrase preview
 
-Phrase preview shows a small part of the phrase that's about to be inserted when you type a shortcut, you can also [open a phrase](/getting-started?id=opening-your-phrases-with-other-applications ':target=_self') with other applications by tapping the the icon that appears besides the phrase.
+Phrase preview shows a small part of the phrase that's about to be inserted when you type a shortcut, you can also [open a phrase](getting-started?id=opening-your-phrases-with-other-applications ':target=_blank') with other applications by tapping the the icon that appears besides the phrase.
 
 If you don't want to to see phrase previews, you can uncheck this setting.
 
 >💡 You can open the phrase editor by long pressing the phrase window to quickly make changes to your phrase
-
 
 ### Configure shortcut suggestions window
 
@@ -146,7 +149,10 @@ You can configure Texpand to display up to 6 shortcut suggestions.
 
 ## Configure phrase list window
 
-Customize the [phrase list](/getting-started?id=creating-a-phrase-list ':target=_self') window.
+Customize the [phrase list](/getting-started?id=creating-a-phrase-list ':target=_self') window, you can find the the settings by going to: 
+
+*Menu (⠇) → Settings → Appearance & Overlay UI → Phrase list* 
+
 
 ### Tap space to show phrase list window
 
@@ -163,7 +169,7 @@ You can configure Texpand to display up to 6 phrase list items.
 
 ## Extras
 
-Additional overlay windows settings.
+Additional overlay UI settings.
 
 ### Overlay UI timeout
 
@@ -171,8 +177,7 @@ Specifies how long (in seconds) overlay windows will be displayed before they ar
 
 This only applies to: phrase previews, shortcuts suggestion indicator (🔍) and phrase list indicator (<i class="bx bx-list-ul"></i>)
 
-> <i class='bx bx-info-circle' ></i> All overlay windows will be closed when 
-		you navigate to another screen or tap another UI element.
+> All overlay windows will be closed when 		you navigate to another screen or tap another UI element.
 
 
 ### Overlay UI opacity

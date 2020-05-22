@@ -15,7 +15,7 @@ When you first open Texpand you will see a warning that says "Accessibility serv
 
 Alternatively you can tap the three dots ( ⠇) on the top right corner and tap "Start service". 
 
-You will then be directed to Android's accessibility settings, depending on your device you may find Texpand on this page or you may find it under "Downloaded services" or "Installed services".
+You will then be directed to Android's accessibility settings, depending on your device you may find Texpand on this screen or you may find it under "Downloaded services" or "Installed services".
 
 Once you find Texpand tap it, then tap the "Use service" switch, which will bring up a dialog that explains what permissions will Texpand get access to, tap "Allow". 
 
@@ -37,17 +37,17 @@ When you're done editing tap the back arrow at the top left corner to save your 
 
 ## Creating a phrase list
 
-You can create multiple phrases that can be displayed by typing a single shortcut, for example you can create a list of replies to respond quickly when you're busy, then you can just type the shortcut and choose from the list of replies.
+You can create a shortcut that displays a list of phrases when typed, for example you can create a list of replies to respond quickly when you're busy, then you can just type the shortcut and choose from the list of replies.
+
+> <i class='bx bxs-crown' style="color: orange"></i> Phrase list is part of Texpand Premium.
 
 To create a phrase list open Texpand and tap the plus button at the bottom right corner, then tap "Phrase list".
 
-On the top text field of the phrase list editor type your shortcut, then tap "List item" to add a phrase, once you have added a phrase tap "List item" again to add another phrase, repeat to add more phrases.
+On the top text field of the phrase list editor type your shortcut, then tap "+ List item" to add a phrase, once you have added a phrase tap "+ List item" again to add another phrase, repeat to add more phrases.
 
-When you're done editing tap the back arrow at the top left corner to save your phrase list.
+Finally tap the back arrow at the top left corner to save your phrase list.
 
 ![Phrase Editor](img/creating_phrase_list_steps.png)
-
-Phrase list is part of Texpand Premium.
 
 ## Shortcut name restrictions
 
@@ -60,57 +60,65 @@ Shortcuts have the following restrictions:
 
 ## Using your shortcuts 
 
-Once you have created your shortcuts you can use them in many apps, unfortunately Texpand is not compatible with every app, please refer to this page to learn more about Texpand's limitations and how you can overcome them. 
+Once you have created your shortcuts you can use them in many apps. 
 
-To use a shortcut start typing it, when the shortcut is typed Texpand will display a small window to take peek at the phrase associated with the shortcut.
+To use a shortcut start typing it, when the shortcut is typed Texpand will display a small window that displays small part of the phrase associated with the shortcut.
 
 To insert the phrase you can tap space or you can tap the preview window.
 
-![Phrase preview](img/text_expansion_steps.png)
+![Phrase preview](img/text_expansion_steps.png) 
 
 You can also trigger text expansion by adding punctuation characters such as `,.:;?` after the shortcut, the punctuation character used to trigger the expansion will be appended to the end of the phrase.
 
 To undo the expansion you can tap the backspace key in your keyboard.
 
+Unfortunately Texpand is not compatible with every app, [Text Input Assistant](/text-input-assistant 'target=_self') can help you use your phrases in apps that are [incompatible](/known-issues?id=incompatible-applications 'target=_self') with Texpand.
+
+### Using phrase lists
+
+In case of phrase lists when you type your shortcut you will see a small list indicator(<i class="bx bx-list-ul"></i>) tap it to bring up the phrase list window, alternatively you can tap space. 
+
+Once the phrase list window is displayed tap the phrase you want to insert.
+
+![Using phrase list](img/phrase_list_usage_steps.png)
+
+You can move around the phrase list window using the handle at the bottom or you can close it using the chevron icon(<i class='bx bxs-chevron-down'></i>) in the bottom right.
+
+> 💡 Swipe right on a phrase list item to open or share it with other applications
+
+
 ## Shortcut suggestions
 
-If you have a lot of shortcuts remembering all of them can be difficult, Texpand can help you find them without having to remember their exact spelling. 
+When you have a lot of shortcuts, remembering all of them can be difficult, Texpand can help you find them without having to remember their exact spelling by displaying a shortcut suggestions window.
 
-
-If what you're typing matches part of one or more shortcuts Texpand will display a small search icon, tapping the icon will display a list of shortcuts similar to the word you just typed.
+If what you're typing matches part of one or more shortcuts Texpand will display a small search icon, tapping the icon will display a list of shortcuts similar to the word you typed.
 
 Tap the desired shortcut to insert it's phrase.
 
 ![Shortcut suggestions](img/shortcut_suggestions.png)
 
->💡 Swipe right on a shortcut suggestion to edit the phrase and to open or share it with other applications
+You can move around the suggestion window using the handle at the bottom or you can close it using the chevron icon(<i class='bx bxs-chevron-down'></i>) in the bottom right.
+
+> 💡 Swipe right on a shortcut suggestion to edit the phrase, open or share it with other applications
 
 ## Adding notes to your phrases
 
 You can add notes to your phrases, which can help describe the contents of a phrase. 
 
-To add notes open a phrase and tap the three horizontal dots at the top right corner of the phrase editor, tap the "Add notes" text field to start adding your notes, once your done close the phrase editor to save your note.
+To add notes open a phrase and tap the three horizontal dots at the top right corner of the phrase editor, tap the "Add notes" text field to start adding your notes, once you are done close the phrase editor to save your note.
 
 You can search for phrases using the contents of your notes.
 
 
 ## Opening your phrases with other applications
 
-If your phrase is something that can be opened by another application such as link or phone number, you can open it from any other app that you're working on by tapping the icon that appears besides the phrase.
+If your phrase is something that can be opened by another application such as a link or a phone number, you can open it from any other app that you're working on by tapping the icon that appears besides the phrase.
 
-For example: If you have a shortcut for a phone number, you can call directly from any app that you're working on by typing the shortcut and tapping the dialer icon that appears in the phrase preview window, this will save you lots of taps and time. 
+For example: If you have a shortcut for a phone number, you can call directly from any app that you're working on by typing the shortcut and tapping the dialer icon that appears in the phrase preview window, this can help save some time. 
 
-This feature is only available on Android 8 Oreo or later.
+> This feature is only available on Android 8 Oreo or later.
 
 ![Phrase Action](img/snippet_action_steps.png)
-
-## Next steps
-
-- [Configure text expansion](/text-expansion-configuration ':target=_self')
-- Insert dates and other variables
-- Keeping your data safe
-- Using Texpand in incompatible apps
-- Tasker support
 
 
 
