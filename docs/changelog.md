@@ -1,13 +1,14 @@
 ### Latest
 
-##### Texpand 2.0.0 (200423) RC1
+#### Texpand 2.0.0 - 8a8641e RC3
 
-- 🇨🇳 Updated Chinese translation
-- 📖 Added a getting started help page, tap ⠇→ Help to access it
-- 🐞 Fixed: an issue where long shortcut names imported from older versions of Texpand would cause a crash when opened
-- 🐞 Fixed: after upgrading to Premium newly created phrases would not expand
-- 🐞 Fixed: suggestion and phrase list windows now show the actual values of Texpand and Tasker variables
-- 🐞 Fixed: after sign in to Google Drive two instances of sync jobs would run causing duplicate entries
+- 🐞 Fixed a crash caused when adding/clicking Text Input Assistant quick setting tile.
+
+- 📋 You can now simply tap an item to copy it in Text Input Assistant, if there's a focused text field underneath it will be pasted automatically https://www.texpandapp.com/docs/#/text-input-assistant?id=copypaste-phrases
+
+- 📖 Texpand help pages are accessible from within in the app, tap "?" icon or "Help" in any screen to get help
+
+- 🐞 Bug fixes and optimizations
 
 
 ### Older
@@ -31,7 +32,7 @@
 ##### Texpand 2.0.0 Beta 2
 
 - ⭐️ Added About screen 
-- ⭐️ Minimum supported is now Android 7.0
+- ⭐️ Minimum supported version is now Android 7.0
 
 ##### Texpand 2.0.0 Beta 1
 
