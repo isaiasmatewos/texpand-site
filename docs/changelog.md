@@ -1,5 +1,28 @@
 ### Latest
 
+#### 2.0.0 - 541a938 (Release)
+
+🎊 An all new Texpand 2.0 is here 🎊
+
+This update improves everything you love about Texpand and adds exciting new features:
+
+- 🔄 Google Drive sync & back up
+- 😍 New design with dark mode
+- ⚡  Improved Tasker support
+- ⚙️ Revamped settings
+- 🅰  Improved Text Input Assistant 
+- 🎛️ Improved per phrase settings
+- ⛔ Blacklist or whitelist applications
+- ⌫  Backspace to undo  
+- 📚 New help pages at: https://texpandapp.com/docs
+- 🔧 And more improvements
+- 🐞 Fixed: a crash that occurs when a user saves 1000 or more phrases
+- 🐞 Fixed: a crash when a 100 char word without space is typed.
+
+
+
+### Older
+
 #### Texpand 2.0.0 - 8a8641e RC3
 
 - 🐞 Fixed a crash caused when adding/clicking Text Input Assistant quick setting tile.
@@ -10,8 +33,6 @@
 
 - 🐞 Bug fixes and optimizations
 
-
-### Older
 
 ##### Texpand 2.0.0 Beta 4
 

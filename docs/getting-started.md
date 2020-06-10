@@ -86,6 +86,11 @@ You can move around the phrase list window using the handle at the bottom or you
 
 > 💡 Swipe right on a phrase list item to open or share it with other applications
 
+## Deleting phrases
+
+To delete a single phrase open it and tap the trashcan icon (<i class='bx bxs-trash' ></i>) at the top right corner tap 'YES' in the confirmation dialog that comes up to delete it.
+
+To delete multiple phrases at once long press a phrase to start multiple selection mode, then tap the phrases that you want to delete to select them, finally tap the trashcan icon (<i class='bx bxs-trash'></i>) at the top right corner to delete the selected phrases, if you change your mind you can tap "UNDO" at the bottom of your screen.
 
 ## Shortcut suggestions
 
