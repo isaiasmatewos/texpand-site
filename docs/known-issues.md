@@ -1,7 +1,7 @@
 # Texpand Known Issues
 
 * Cursor may not move to the correct position in some applications.
-* In some application text formatting may be lost after text expansion.
+* In some applications text formatting may be lost after text expansion.
 * Undo may not work in some applications.
 * While Texpand works with Chrome, some websites may be incompatible with Texpand.
 

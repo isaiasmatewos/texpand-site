@@ -4,6 +4,7 @@
 * [<b>Backup and Sync</b>](backup-and-sync.md)
 * [<b>Texpand Variables</b>](texpand-variables.md)
 * [<b>Tasker Support</b>](tasker-support.md)
+* [<b>Migrate to Texpand 2.0</b>](migrating-from-texpand-plus.md)
 * [<b>Known Issues</b>](known-issues.md)
 * [<b>FAQ</b>](faq.md)
 * [<b>Changelog</b>](changelog.md)
