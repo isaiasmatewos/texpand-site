@@ -18,5 +18,5 @@ To migrate from Texpand Plus to Texpand 2.0 please follow these steps:
 
 ## Texpand 2.0 is a paid upgrade
 
-**To get Texpand 2.0 Premium you have to pay again**, but if you have bought Texpand Plus after January 1, 2020 you eligible for a free upgrade, if your are eligible send your Google Play Receipt for Texpand Plus to [support@texpandapp.com](mailto:support@texpandapp.com).
+**To get Texpand 2.0 Premium you have to pay again**, but if you have bought Texpand Plus **between January 1, 2020 and June 15, 2020** you eligible for to get Texpand 2.0 Premium for free, if this applies to you send your Google Play Receipt for Texpand Plus to [support@texpandapp.com](mailto:support@texpandapp.com).
 
