@@ -2,9 +2,9 @@
 
 #### 2.0.1 - 6c1c5ee
 
-- 🇪🇸 Hola! Texpand is now avaialble in Spanish (Gracias, Nicolàs Portela)
+- 🇪🇸 Hola! Texpand is now available in Spanish (Gracias, Nicolàs Portela)
 - 👉 Removed "Phrase Preview" option
-- 👉 Renamed "Don't expand by space/punctuation" to "Don't require space for expansion", now if enabled will auto-expand a shortcut and disbale "Phrase Preview" for the shortcut
+- 👉 Renamed "Don't expand by space/punctuation" to "Don't require space for expansion", now if enabled will auto-expand a shortcut and disable "Phrase Preview" for the shortcut
 - 👉 Now if global setting "Expand with space/punctuation" is disabled all shortcuts will auto-expand and "Phrase Preview" will be disabled for all shortcuts
 - 🐞 Fixed: undo may not work in some situations
 - 🐞 Fixed: reversed predefined date formats
