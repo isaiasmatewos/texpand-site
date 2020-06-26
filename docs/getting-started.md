@@ -114,16 +114,27 @@ To add notes open a phrase and tap the three horizontal dots at the top right co
 
 You can search for phrases using the contents of your notes.
 
+## Phrase Preview
+
+Phrase preview shows a small part of the phrase that's about to be inserted when you type a shortcut, you can also [open a phrase](#opening-your-phrases-with-other-applications) with other applications by tapping the the icon that appears at the end.
+
+![Phrase Preview](img/expand_by_tap.png)
+
+> 💡 You can open the phrase editor by long pressing the phrase window to quickly make changes to your phrase
+
+> If you have disabled ["expand with space/punctuation"](/text-expansion-configuration?id=expand-with-spacepunctuation 'target=_self') or if ["don't require space for expansion"](/text-expansion-configuration?id=don39t-require-space-for-expansion 'target=_self') is disabled for a phrase, phrase preview will not be displayed.
+
 
 ## Opening your phrases with other applications
 
-If your phrase is something that can be opened by another application such as a link or a phone number, you can open it from any other app that you're working on by tapping the icon that appears besides the phrase.
+If your phrase can be opened by another application e.g. a link or a phone number, you can open it from any other app that you're working on by tapping the app icon that appears at the end of [phrase preview](#phrase-preview).
 
 For example: If you have a shortcut for a phone number, you can call directly from any app that you're working on by typing the shortcut and tapping the dialer icon that appears in the phrase preview window, this can help save some time. 
 
 > This feature is only available on Android 8 Oreo or later.
 
 ![Phrase Action](img/snippet_action_steps.png)
+
 
 
 

@@ -50,11 +50,9 @@ Hwr? → How are you?
 Ty,  → Thank you, 
 ```
 
-If this is disabled, you will have to tap the phrase preview window to expand text:
+If this is disabled, shortcuts will auto-expand without any additional action.
 
-![Tap the preview window to expand](img/expand_by_tap.png)
-
-If both [phrase preview](#phrase-preview) and "Expand with space/punctuation" are disabled, shortcuts will expand immediately without any user interaction.
+> If this option is disabled, [phrase preview](/README?id=phrase-preview) will be disabled for all shortcuts.
 
 
 ## Phrase Settings
@@ -78,9 +76,11 @@ Disables [smart case](#smart-case) for a phrase.
 
 Space won't be [appended](#append-space) when this phrase expands.
 
-### Don't expand by space/punctuation
+### Don't require space for expansion
 
-[Tapping the space key or typing a punctuation character](#expand-with-spacepunctuation) won't trigger expansion for a phrase.
+When enabled, shortcut will auto-expand as soon as it's typed. No need to tap space/punctuation. 
+
+> If enabled, this will disable [phrase preview](/README?id=phrase-preview) for a phrase.
 
 ### Expands within words
 
@@ -106,6 +106,7 @@ To select applications for your preferred mode, tap the '+' button on the top, t
 
 > When "Whitelist mode" is selected, you need to add at least one application to be applicable, otherwise text expansion will work in all applications.
 
+
 ## Overlay UI settings
 
 Texpand displays small overlay windows to assist you with inserting your phrases, you can configure many aspects of these windows by going to:
@@ -115,15 +116,6 @@ Texpand displays small overlay windows to assist you with inserting your phrases
 You can also change application theme and language in this screen.
 
 Overlay UI settings include the following:
-
-
-### Phrase preview
-
-Phrase preview shows a small part of the phrase that's about to be inserted when you type a shortcut, you can also [open a phrase](getting-started?id=opening-your-phrases-with-other-applications ':target=_blank') with other applications by tapping the the icon that appears besides the phrase.
-
-If you don't want to to see phrase previews, you can uncheck this setting.
-
->💡 You can open the phrase editor by long pressing the phrase window to quickly make changes to your phrase
 
 ### Configure shortcut suggestions window
 

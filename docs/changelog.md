@@ -1,5 +1,17 @@
 ### Latest
 
+#### 2.0.1 - 6c1c5ee
+
+- 🇪🇸 Hola! Texpand is now avaialble in Spanish (Gracias, Nicolàs Portela)
+- 👉 Removed "Phrase Preview" option
+- 👉 Renamed "Don't expand by space/punctuation" to "Don't require space for expansion", now if enabled will auto-expand a shortcut and disbale "Phrase Preview" for the shortcut
+- 👉 Now if global setting "Expand with space/punctuation" is disabled all shortcuts will auto-expand and "Phrase Preview" will be disabled for all shortcuts
+- 🐞 Fixed: reversed predefined date formats
+- ✨ Stability and performance improvements
+
+
+### Older
+
 #### 2.0.0 - 541a938 (Release)
 
 🎊 An all new Texpand 2.0 is here 🎊
@@ -19,9 +31,6 @@ This update improves everything you love about Texpand and adds exciting new fea
 - 🐞 Fixed: a crash that occurs when a user saves 1000 or more phrases
 - 🐞 Fixed: a crash when a 100 char word without space is typed.
 
-
-
-### Older
 
 #### Texpand 2.0.0 - 8a8641e RC3
 
