@@ -2,7 +2,7 @@
 
 #### 2.0.2 - d1e48bd
 
-- ✨ New: insert phrase by replacing text selection
+- ✨ New: insert phrase from text selection, [learn more](/README?id=insert-phrases-by-replacing-text-selection)
 - 🐞 Fixed: missing leading zero for single digit date
 - 🐞 Fixed: auto-expansion issue, now disabling "Expand with space/punc" doesn't cause phrases to expand instantly.
 - 🐞 Fixed: renamed per phrase setting "Don't require space for expansion" to "Expand instantly" if enabled a phrase will auto-expand as soon as it's typed.
