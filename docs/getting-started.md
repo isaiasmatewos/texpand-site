@@ -116,13 +116,23 @@ You can search for phrases using the contents of your notes.
 
 ## Phrase Preview
 
-Phrase preview shows a small part of the phrase that's about to be inserted when you type a shortcut, you can also [open a phrase](#opening-your-phrases-with-other-applications) with other applications by tapping the the icon that appears at the end.
+Phrase preview shows a small part of the phrase that's about to be inserted when you type a shortcut, you can tap it to insert a phrase you can also [open a phrase](#opening-your-phrases-with-other-applications) with other applications by tapping the the icon that appears at the end.
 
 ![Phrase Preview](img/expand_by_tap.png)
 
 > 💡 You can open the phrase editor by long pressing the phrase window to quickly make changes to your phrase
 
 > If you have disabled ["expand with space/punctuation"](/text-expansion-configuration?id=expand-with-spacepunctuation 'target=_self') or if ["don't require space for expansion"](/text-expansion-configuration?id=don39t-require-space-for-expansion 'target=_self') is disabled for a phrase, phrase preview will not be displayed.
+
+## Insert phrases by replacing text selection
+
+In cases where Texpand doesn't work normally you can use [Text Input Assistant](/text-input-assistant 'target=_self'), in addition you can insert phrases by selecting an editable text, to do so select a text and in the selection menu tap ( ⠇) and select "Search Texpand", this will bring up results that contain the selected text, select one of the results, this will close the search screen and replace the text selection with the selected phrase.
+
+![Text Selection replacement](img/replace_text_selection.png)
+
+> If you select a phrase-list a dialog with a list of items will appear, tap the item you want to insert it.
+
+> Text selection replacement may not work with some apps, you may also not get the "Search Texpand" menu item in certain apps.
 
 
 ## Opening your phrases with other applications

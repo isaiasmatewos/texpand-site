@@ -50,9 +50,9 @@ Hwr? → How are you?
 Ty,  → Thank you, 
 ```
 
-If this is disabled, shortcuts will auto-expand without any additional action.
+If this is disabled, you will have to tap [phrase preview](/README?id=phrase-preview) to insert your phrase.
 
-> If this option is disabled, [phrase preview](/README?id=phrase-preview) will be disabled for all shortcuts.
+> Phrases that have [expand within words](#expands-within-words) enabled can't be expanded by typing space/punctuation.
 
 
 ## Phrase Settings
@@ -76,7 +76,7 @@ Disables [smart case](#smart-case) for a phrase.
 
 Space won't be [appended](#append-space) when this phrase expands.
 
-### Don't require space for expansion
+### Expand instantly
 
 When enabled, shortcut will auto-expand as soon as it's typed. No need to tap space/punctuation. 
 

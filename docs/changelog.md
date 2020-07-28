@@ -1,5 +1,16 @@
 ### Latest
 
+#### 2.0.2 - d1e48bd
+
+-✨ New: insert phrase by replacing text selection
+-🐞 Fixed: missing leading zero for single digit date
+-🐞 Fixed: auto-expansion issue, now disabling "Expand with space/punc" doesn't cause phrases to expand instantly.
+-🐞 Fixed: renamed per phrase setting "Don't require space for expansion" to "Expand instantly" if enabled a phrase will auto-expand as soon as it's typed.
+-🐞 Fixed: phrases that have "Expand within words" enabled expanded by space/punctuation
+
+
+### Older
+
 #### 2.0.1 - 6c1c5ee
 
 - 🇪🇸 Hola! Texpand is now available in Spanish (Gracias, Nicolàs Portela)
@@ -9,9 +20,6 @@
 - 🐞 Fixed: undo may not work in some situations
 - 🐞 Fixed: reversed predefined date formats
 - ✨ Stability and performance improvements
-
-
-### Older
 
 #### 2.0.0 - 541a938 (Release)
 
