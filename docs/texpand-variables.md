@@ -69,8 +69,6 @@ Here's a video:
 
 You can insert contents of clipboard into your phrase by using the clipboard variable, to insert the clipboard variable scroll the variable menu horizontally and tap "Misc" then select "Clipboard". 
 
-> ⚠️ Android 10 restricts clipboard access for applications running in the background, you will need to grant [additional permissions](/text-input-assistant?id=clipboard-access-in-android-10 ':target=_self') for the clipboard variable to work.
-
 ## All Texpand variables
 
 - <b>Day</b>

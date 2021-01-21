@@ -1,5 +1,20 @@
 ### Latest
 
+#### 2.0.3 - b64f984
+
+
+- 📥 CSV import and export
+- 🔧 Android 11 compatibility:
+   - Removes the ability to launch TIA using accessibility button, because Android 11 requires it to be enabled all the time.
+   - In Android 11 application management does not list installed apps, you have to manually type an app's package name to include or exclude it.
+- 📋 Clipboard variable no longer require special adb permission.
+- 🐞 "Expand instantly" and "Expand within words" can now work together, 'backspace to undo' is not supported when both are turned on
+- ⭐️ Uses Google Play In-App review library to ask for reviews
+- 👉 Removes the ability to instantly modify phrases in Google Drive to limit API usage
+
+
+### Older
+
 #### 2.0.2 - d1e48bd
 
 - ✨ New: insert phrase from text selection, [learn more](/README?id=insert-phrases-by-replacing-text-selection)
@@ -7,9 +22,6 @@
 - 🐞 Fixed: auto-expansion issue, now disabling "Expand with space/punc" doesn't cause phrases to expand instantly.
 - 🐞 Fixed: renamed per phrase setting "Don't require space for expansion" to "Expand instantly" if enabled a phrase will auto-expand as soon as it's typed.
 - 🐞 Fixed: phrases that have "Expand within words" enabled expanded by space/punctuation
-
-
-### Older
 
 #### 2.0.1 - 6c1c5ee
 

@@ -22,6 +22,8 @@ If this is turned on tapping the backspace key (⌫) will change the expanded te
 
 Turning it off will disable this behavior.
 
+> 'Backspace to undo' does not work with phrases that have both [expand within words](#expands-within-words) and [expand instantly](#expand-instantly) enabled.
+
 ### Smart case
 
 When turned on, smart case changes the expanded text case based on the case of the typed shortcut, example:

@@ -26,6 +26,8 @@ The available options are:
 
 >In Android 10, when Google's gesture navigation is enabled, this button is replaced by a gesture, swipe up from the bottom of the screen with two fingers to show/hide TIA.
 
+> Opening TIA using <b>Accessibility Button</b> is not available in Android 11 or later.
+
 • <b>Fingerprint gesture</b>: allows you to show/hide TIA by a fingerprint gesture. By default a swipe up fingerprint gesture will show/hide TIA, but you can choose a fingerprint gesture direction by going to:
 
 *Open Texpand → Menu (⠇) → Settings → Text Input Assistant → Fingerprint gesture direction*

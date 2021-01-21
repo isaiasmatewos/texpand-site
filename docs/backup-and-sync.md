@@ -55,15 +55,23 @@ Learn how to create and restore backup files.
 
 ### How to backup phrases
 
-To backup phrases go to: *Open Texpand → Menu (⠇) → Settings → Import & Export* and tap "Export" this will open a file browser, navigate to the desired location and tap "Save". 
+To backup phrases go to: *Open Texpand → Menu (⠇) → Settings → Import & Export* and tap "Export phrases" this will open a file browser, navigate to the desired location and tap "Save". 
 
 Texpand generates a file name that contains date and time of the backup, you can change the filename if you wish to.
 
 > You can save your backup in any cloud storage service that is accessible via the file browser.
 
+#### Export as CSV
+
+Texpand supports exporting your phrases in CSV, this format is compatible with other text expansion applications and can easily be edited using spreadsheet applications such as Excel or Google Sheets.
+
+To export your phrases as CSV: *Open Texpand → Menu (⠇) → Settings → Import & Export* and tap "Export phrases as CSV" this will open a file browser, navigate to the desired location and tap "Save". 
+
 ### How to restore backups
 
-To restore backups go to: *Open Texpand → Menu (⠇) → Settings → Import & Export* and tap "Import" this will open a file browser, find the Texpand backup file and tap it.
+To restore backups go to: *Open Texpand → Menu (⠇) → Settings → Import & Export* and tap "Import phrases" this will open a file browser, find the Texpand backup file and tap it.
+
+> Texpand 2.0.3 or later can import phrases from CSV file.
 
 > If the "Update duplicates" option is checked, Texpand will update the contents of conflicting shortcuts from the selected backup file, e.g if you have a shortcut *nm* with phrase *John Smith* within Texpand and the backup file has the same shortcut with phrase *John Appleseed*, the shortcut *nm* within Texpand will be updated with *John Appleseed*.
 
