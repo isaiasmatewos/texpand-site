@@ -1,5 +1,22 @@
 ### Latest
 
+
+#### 2.0.4 - e7e20fc
+
+- “Add phrase" may not work after adding a phrase
+- Phrase lists does not display item order correctly
+- Crash when "sync only on wifi" preference is tapped
+- Crash when Tasker user variables are used in a phrase list
+- Texpand variables lose styling in some cases
+- Clipboard variable hides the keyboard in Android 10 
+- Space would continue to be added when "Append space" global option is disabled.
+- The delete icon may not appear when editing a phrase
+
+
+
+
+### Older
+
 #### 2.0.3 - b64f984
 
 
@@ -12,8 +29,6 @@
 - ⭐️ Uses Google Play In-App review library to ask for reviews
 - 👉 Removes the ability to instantly modify phrases in Google Drive to limit API usage
 
-
-### Older
 
 #### 2.0.2 - d1e48bd
 
