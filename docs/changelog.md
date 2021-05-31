@@ -3,6 +3,8 @@
 
 #### 2.0.4 - e7e20fc
 
+Includes the following bug-fixes:
+
 - “Add phrase" may not work after adding a phrase
 - Phrase lists does not display item order correctly
 - Crash when "sync only on wifi" preference is tapped
