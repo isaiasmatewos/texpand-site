@@ -1,5 +1,10 @@
 ### Latest
 
+#### 2.0.5 - 2.0.5 - cffbb0f
+
+- Fixed an issue where expanded text would undo automatically.
+- Intoduced a prompt to help you configure Texpand run smoothly in the background.
+- Few minor improvements.
 
 #### 2.0.4 - e7e20fc
 
