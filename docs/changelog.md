@@ -1,6 +1,22 @@
 ### Latest
 
-#### 2.0.5 - 2.0.5 - cffbb0f
+
+### 2.0.7 
+
+
+- Android 12 compatibility
+- Fixes overlay UI positioning issues in Android 12
+
+
+
+### Older
+
+#### 2.0.6 - 8f5c29e
+
+- Adds support for Brazilian Portuguese language 🇧🇷
+- Bug fixes
+
+#### 2.0.5 - cffbb0f
 
 - Fixed an issue where expanded text would undo automatically.
 - Intoduced a prompt to help you configure Texpand run smoothly in the background.
@@ -19,10 +35,6 @@ Includes the following bug-fixes:
 - Space would continue to be added when "Append space" global option is disabled.
 - The delete icon may not appear when editing a phrase
 
-
-
-
-### Older
 
 #### 2.0.3 - b64f984
 
