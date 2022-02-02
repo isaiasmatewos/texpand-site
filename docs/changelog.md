@@ -1,15 +1,21 @@
 ### Latest
 
 
-### 2.0.7 
+### 2.1.1
+
+- Automatically trigger keyboard 'Enter/Return' action after text expansion.
+- Randomly select an item from phrase list.
+- Added support for German language.
+- Fixes text rendering issue affecting some devices.
+
+
+### Older
+
+#### 2.0.7 
 
 
 - Android 12 compatibility
 - Fixes overlay UI positioning issues in Android 12
-
-
-
-### Older
 
 #### 2.0.6 - 8f5c29e
 
